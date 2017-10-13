@@ -11,18 +11,18 @@ void m_1();
 
 void print(string msg);
 
-int main()
-{
-	///Sequential execution
-	//f_1();
-	//m_1();
-
-	///Concurent execution
-	thread t1(f_1);
-	m_1();
-	t1.join();
-	return 0;
-}
+//int main()
+//{
+//	///Sequential execution
+//	//f_1();
+//	//m_1();
+//
+//	///Concurent execution
+//	thread t1(f_1);
+//	m_1();
+//	t1.join();
+//	return 0;
+//}
 
 void f_1()
 {
