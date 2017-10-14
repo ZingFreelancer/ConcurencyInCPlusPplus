@@ -149,12 +149,17 @@
     <ClInclude Include="LogWriter.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="ThreadGuard.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LogWriter.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Main_Mutex.cpp" />
     <ClCompile Include="Main_ThreadIntro.cpp" />
+    <ClCompile Include="Main_Thread_Deatach.cpp" />
+    <ClCompile Include="Main_Thread_RAII.cpp" />
+    <ClCompile Include="Main_Thread_Reference.cpp" />
+    <ClCompile Include="Main_Thread_Reference2.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -162,6 +167,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Main_ThreadManagement.cpp" />
+    <ClCompile Include="ThreadGuard.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

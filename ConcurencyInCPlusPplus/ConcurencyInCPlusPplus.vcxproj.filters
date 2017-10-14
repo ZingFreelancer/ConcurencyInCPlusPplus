@@ -33,6 +33,9 @@
     <ClInclude Include="LogWriter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ThreadGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -52,6 +55,21 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Deatach.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_RAII.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadGuard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Reference.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Reference2.cpp">
+      <Filter>Introduction</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
