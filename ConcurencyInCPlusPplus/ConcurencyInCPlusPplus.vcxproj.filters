@@ -36,6 +36,12 @@
     <ClInclude Include="ThreadGuard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Stack_Thread_Safe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank_Account.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -69,6 +75,21 @@
       <Filter>Introduction</Filter>
     </ClCompile>
     <ClCompile Include="Main_Thread_Reference2.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Move.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Lock.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack_Thread_Safe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank_Account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Thread_Object_Concurency.cpp">
       <Filter>Introduction</Filter>
     </ClCompile>
   </ItemGroup>
