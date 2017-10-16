@@ -17,6 +17,6 @@ public:
 	Bank_Account& operator=(Bank_Account& const) = delete;
 	bool Withdraw(const double amount);
 	bool Deposite(const double amount);
-	bool Transfer(Bank_Account from, Bank_Account to, const double amount);
+	bool Transfer(Bank_Account &from, Bank_Account &to, const double amount);
 };
 

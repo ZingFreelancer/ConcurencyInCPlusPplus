@@ -1,17 +1,18 @@
 #include "stdafx.h"
-#include <string>
-#include <iostream>
-#include <thread>
-#include <chrono>
-#include "Bank_Account.h"
-using namespace std;
+//#include <string>
+//#include <iostream>
+//#include <thread>
+//#include <chrono>
+//#include "Bank_Account.h"
+//#include "Stack_Thread_Safe.h"
+//using namespace std;
 //
 //int main()
 //{
-//	Bank_Account bank;
-//
-//	Bank_Account BA_James(5000, "James");
-//	Bank_Account BA_Martin(10000, "Martin");
+//	//Bank_Account bank;
+//	
+//	//Bank_Account BA_James(5000, "James");
+//	//Bank_Account BA_Martin(10000, "Martin");
 //
 //	//std::thread t1(&Bank_Account::Transfer, &BA_James, std::ref(BA_James), std::ref(BA_Martin), 1250);
 //	//std::this_thread::sleep_for(std::chrono::milliseconds(100));

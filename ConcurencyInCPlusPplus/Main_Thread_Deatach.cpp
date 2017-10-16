@@ -1,10 +1,10 @@
 #include "stdafx.h"
-#include <iostream>
-#include <string>
-#include <thread>
-#include <chrono>
-
-using namespace std;
+//#include <iostream>
+//#include <string>
+//#include <thread>
+//#include <chrono>
+//
+//using namespace std;
 
 //void func_1()
 //{

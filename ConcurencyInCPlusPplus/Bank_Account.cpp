@@ -37,9 +37,10 @@ bool Bank_Account::Deposite(const double amount)
 	return true;
 }
 
-bool Bank_Account::Transfer(Bank_Account from, Bank_Account to, double amount)
+bool Bank_Account::Transfer(Bank_Account& from, Bank_Account& to, const double amount)
 {
-	std::lock_guard<std::mutex> lg(from._Mutex);
+	///Using lock guards will cause a deadlock where function will not be able to proceed
+	std::lock_guard<std::mutex> lg_1(from._Mutex);
 	std::cout << "Lock for " << from._HolderName << " account aquired by " << std::this_thread::get_id() << std::endl;
 	std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
