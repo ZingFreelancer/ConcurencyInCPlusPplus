@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="Bank_Account.h" />
     <ClInclude Include="LogWriter.h" />
+    <ClInclude Include="Queue_Thread_Safe.h" />
     <ClInclude Include="Stack_Thread_Safe.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -156,8 +157,14 @@
   <ItemGroup>
     <ClCompile Include="Bank_Account.cpp" />
     <ClCompile Include="LogWriter.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main_Async_Operation.cpp" />
+    <ClCompile Include="Main_BankAccount.cpp" />
+    <ClCompile Include="Main_Condition_Variable.cpp" />
+    <ClCompile Include="Main_Futures.cpp" />
     <ClCompile Include="Main_Mutex.cpp" />
+    <ClCompile Include="Main_Package_Task.cpp" />
+    <ClCompile Include="Main_Promise.cpp" />
+    <ClCompile Include="Main_Queue.cpp" />
     <ClCompile Include="Main_ThreadIntro.cpp" />
     <ClCompile Include="Main_Thread_Lock.cpp" />
     <ClCompile Include="Main_Thread_Move.cpp" />

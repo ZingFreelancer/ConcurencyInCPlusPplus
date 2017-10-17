@@ -42,6 +42,9 @@
     <ClInclude Include="Bank_Account.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Queue_Thread_Safe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,9 +60,6 @@
       <Filter>Introduction</Filter>
     </ClCompile>
     <ClCompile Include="LogWriter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main_Thread_Deatach.cpp">
@@ -90,6 +90,27 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main_Thread_Object_Concurency.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Condition_Variable.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_BankAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Queue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Futures.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Async_Operation.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Package_Task.cpp">
+      <Filter>Introduction</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Promise.cpp">
       <Filter>Introduction</Filter>
     </ClCompile>
   </ItemGroup>
