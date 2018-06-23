@@ -110,8 +110,5 @@
     <ClCompile Include="Main_Package_Task.cpp">
       <Filter>Introduction</Filter>
     </ClCompile>
-    <ClCompile Include="Main_Promise.cpp">
-      <Filter>Introduction</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

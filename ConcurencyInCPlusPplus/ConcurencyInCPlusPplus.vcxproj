@@ -163,7 +163,6 @@
     <ClCompile Include="Main_Futures.cpp" />
     <ClCompile Include="Main_Mutex.cpp" />
     <ClCompile Include="Main_Package_Task.cpp" />
-    <ClCompile Include="Main_Promise.cpp" />
     <ClCompile Include="Main_Queue.cpp" />
     <ClCompile Include="Main_ThreadIntro.cpp" />
     <ClCompile Include="Main_Thread_Lock.cpp" />
